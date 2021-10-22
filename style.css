@@ -1,0 +1,29 @@
+#Nav {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0px;
+    background-color: aqua;
+    width: 90%;
+    height: 135px;
+    display: flex;
+    flex-direction: row;
+}
+#logo {
+    background-color: aquamarine;
+    width: 375px;
+    height: 125px;
+}
+
+ul {
+    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Nav-Bouton {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: green;
+    width: 150px;
+    height: 125px;
+}
