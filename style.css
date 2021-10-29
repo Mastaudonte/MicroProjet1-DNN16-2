@@ -10,6 +10,8 @@
 }
 #logo {
     background-color: aquamarine;
+    margin-top: 5px;
+    margin-left: 5px;
     width: 375px;
     height: 125px;
 }
@@ -22,6 +24,8 @@ ul {
 
 .Nav-Bouton {
     margin-left: 5px;
+    margin-top: -12px;
+    margin-bottom: 5px;
     margin-right: 5px;
     background-color: green;
     width: 150px;
