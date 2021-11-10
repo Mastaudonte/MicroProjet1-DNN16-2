@@ -31,3 +31,44 @@ ul {
     width: 150px;
     height: 125px;
 }
+
+.titre {
+    margin-left: 5vw;
+}
+
+.baniere {
+    margin: auto;
+    width: 90vw;
+    height: 250px;
+    background-color: rgb(163, 71, 175);
+}
+
+.cote-cote {
+    margin: auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-gauche {
+    width: 45vw;
+}
+
+.img-droite {
+    background-color: burlywood;
+    width: 45vw;
+}
+
+.citation {
+    margin: auto;
+    width: 150px;
+    display: flex;
+}
+
+.guillemet {
+    font-size: 50px;
+}
+
+.cita {
+    font-size: 50px;
+}
