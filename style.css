@@ -31,10 +31,12 @@ a:link
     width: 150px;
     height: 50px;
     border-radius: 25px;
+    list-style: none;
 }
 .Nav-Bouton:hover {
     background-color: black;
     color: white;
+    list-style: none;
 }
 
 .pokemon {
