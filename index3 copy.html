@@ -5,6 +5,7 @@
         <title>article</title>
         <link rel="stylesheet" href="style2.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="app.js"></script>
     </head>
     <body>
         <div id="Nav">
@@ -15,22 +16,15 @@
                 <a href="index3 copy.html"><div class="Nav-Bouton 3"><p class="bouton-nav">A Propos</p></div></a>
             </div>
         </div>
-        <div class="carrousel">
-            <div class="slide 1">
-                <div class="image-carou"></div>
-            </div>
-            <div class="slide 2">
-                <div class="image-carou"></div>
-            </div>
-            <div class="slide 3">
-                <div class="image-carou"></div>
-            </div>
-            <div class="slide 4">
-                <div class="image-carou"></div>
-            </div>
-            <div class="slide 5">
-                <div class="image-carou"></div>
-            </div>
-        </div>
+        <form>
+
+			<input type="radio" name="fancy" autofocus value="clubs" id="clubs" />
+			<input type="radio" name="fancy" value="hearts" id="hearts" />
+			<input type="radio" name="fancy" value="spades" id="spades" />
+			<input type="radio" name="fancy" value="diamonds" id="diamonds" />			
+			<label for="clubs">&#9827; Clubs</label><label for="hearts">&#9829; Hearts</label><label for="spades">&#9824; Spades</label><label for="diamonds">&#9830; Diamonds</label>
+
+			<div class="keys">Use left and right keys to navigate</div>
+	</form>
     </body>
 </html>
