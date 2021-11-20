@@ -1,0 +1,70 @@
+/*************** NAVBAR ***************/
+#Nav {
+    margin-top: 0px;
+    background-color: aqua;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+#logo {
+    background-image: url(/images/Capture\ d’écran\ 2021-11-10\ 111748.jpg);
+    background-size: cover;
+    margin-top: 2.5px;
+    margin-left: 5px;
+    width: 345px;
+    height: 95px;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+}
+
+.Nav-Bouton {
+    margin-left: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px rgb(0, 0, 0);
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+}
+.Nav-Bouton:hover {
+    background-color: black;
+    color: white;
+}
+
+.pokemon {
+    display: flex;
+    margin-left: 45vw;
+    margin-top: 15px;
+}
+
+.bouton-nav {
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/**************************************/
+
+body {
+    .
+}
+
+/***************  SLIDER  **************/
+
+.taille-image {
+  width: 90vw;
+  height: 80vh;
+}
+
+.slide-margin {
+  width: 90vw;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  border-radius: 5px;
+}
