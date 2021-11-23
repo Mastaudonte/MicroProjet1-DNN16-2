@@ -2,3 +2,14 @@
     width: 90vw;
     height: 90vh;
 }
+
+input[type="radio"]{
+    display: none;
+}
+
+label{
+    position: relative;
+    color: #01cc65;
+    font-family: 'Poppins',sans-serif;
+    font-size: 30px;
+}
