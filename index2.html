@@ -18,39 +18,40 @@
         </div>
 
         <!-- Articles -->
-        <div id="article1" class="article">QA</div>
-        <div id="article3" class="article">QA</div>
-        <div id="article4" class="article">QA</div>
-        <div id="article5" class="article">QA</div>
+        <div id="contenu_onglet_article1" class="article">QA</div>
+        <div id="contenu_onglet_article2" class="article">QA</div>
+        <div id="contenu_onglet_article3" class="article">QA</div>
+        <div id="contenu_onglet_article4" class="article">QA</div>
+        <div id="contenu_onglet_article5" class="article">QA</div>
 
         <!-- List Thème -->
         <div class="container">
             <input type="radio" name="theme" id="theme-un" checked="checked">
-            <label for="theme-un" onclick="popup()">
+            <label for="theme-un" id="onglet_article1" class="onglet_0 onglet" onclick="javascript:change_onglet('article1');">
                 <ion-icon name="reader-outline" class="icon-select"></ion-icon>
                 <h1 class="select-theme">Thème</h1>
                 <p class="text-select">L’histoire du street art</p>
             </label>
             <input type="radio" name="theme" id="theme-deux">
-            <label for="theme-deux" onclick="popup2()">
+            <label for="theme-deux" id="onglet_article2" class="onglet_0 onglet" onclick="javascript:change_onglet('article2');">
                 <ion-icon name="reader" class="icon-select"></ion-icon>
                 <h1 class="select-theme">Thème</h1>
                 <p class="text-select">Les différentes façon de ...</p>
             </label>
             <input type="radio" name="theme" id="theme-trois">
-            <label for="theme-trois" onclick="popup3()">
+            <label for="theme-trois" id="onglet_article3" class="onglet_0 onglet" onclick="javascript:change_onglet('article3');">
                 <ion-icon name="reader" class="icon-select"></ion-icon>
                 <h1 class="select-theme">Thème</h1>
-                <p class="text-select">Le street art en France</p>
+                   <p class="text-select">Le street art en France</p>
             </label>
             <input type="radio" name="theme" id="theme-quatre">
-            <label for="theme-quatre" onclick="popup4()">
+            <label for="theme-quatre" id="onglet_article4" class="onglet_0 onglet" onclick="javascript:change_onglet('article4');">
                 <ion-icon name="reader-outline" class="icon-select"></ion-icon>
                 <h1 class="select-theme">Thème</h1>
                 <p class="text-select">Le street art à l’étranger</p>
             </label>
             <input type="radio" name="theme" id="theme-cinq">
-            <label for="theme-cinq" onclick="popup5()">
+            <label for="theme-cinq" id="onglet_article5" class="onglet_0 onglet" onclick="javascript:change_onglet('article5');">
                 <ion-icon name="reader-outline" class="icon-select"></ion-icon>
                 <h1 class="select-theme">Thème</h1>
                 <p class="text-select-bis">Les artistes</p>
