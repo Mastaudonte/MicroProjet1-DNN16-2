@@ -1,9 +1,9 @@
 /****************** NAVBAR ****************/
 #Nav {
-    margin-top: 0px;
-    background-color: aqua;
+    margin-top: -8px;
+    background: linear-gradient(22deg, #384d9c, #9e7fb8);
     width: 100vw;
-    height: 100px;
+    height: 60px;
     display: flex;
     flex-direction: row;
 }
@@ -19,24 +19,21 @@
 a:link 
 { 
  text-decoration:none; 
-} 
+}
 
 .Nav-Bouton {
     margin-left: 5px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: -12px;
     margin-right: 10px;
     background-color: rgb(255, 255, 255);
     border: solid 2px rgb(0, 0, 0);
     width: 150px;
     height: 50px;
     border-radius: 25px;
-    list-style: none;
 }
 .Nav-Bouton:hover {
     background-color: black;
     color: white;
-    list-style: none;
 }
 
 .pokemon {

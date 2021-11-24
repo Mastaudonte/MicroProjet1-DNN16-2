@@ -1,19 +1,18 @@
 /*************** NAVBAR ***************/
 #Nav {
     margin-top: 0px;
-    background-color: aqua;
+    background: linear-gradient(22deg, #384d9c, #9e7fb8);
     width: 100vw;
-    height: 100px;
+    height: 60px;
     display: flex;
     flex-direction: row;
 }
 #logo {
-    background-image: url(/images/Capture\ d’écran\ 2021-11-10\ 111748.jpg);
-    background-size: cover;
+    background-color: white;
     margin-top: 2.5px;
     margin-left: 5px;
-    width: 345px;
-    height: 95px;
+    width: 305px;
+    height: 55px;
 }
 
 a:link 
@@ -23,8 +22,7 @@ a:link
 
 .Nav-Bouton {
     margin-left: 5px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: -10px;
     margin-right: 10px;
     background-color: rgb(255, 255, 255);
     border: solid 2px rgb(0, 0, 0);
