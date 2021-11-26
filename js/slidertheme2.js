@@ -3,11 +3,11 @@
     var autoUpdate = false,
         timeTrans = 4000;
     
-      var cdSlider = document.querySelector('.cd-slider-bis'),
+      var cdSlider = document.querySelector('.cd-slider-2'),
           item = cdSlider.querySelectorAll("li"),
           nav = cdSlider.querySelector("nav");
   
-      item[0].className = "current_slide_bis";
+      item[0].className = "current_slide_2";
   
       for (var i = 0, len = item.length; i < len; i++) {
           var color = item[i].getAttribute("data-color");
@@ -20,7 +20,7 @@
           var msie = ua.indexOf("MSIE");
           if ( msie > 0 ) {
               var version = parseInt(ua.substring(msie+ 5, ua.indexOf(".", msie)));
-              if (version === 9) { cdSlider.className = "cd-slider-bis ie9";}
+              if (version === 9) { cdSlider.className = "cd-slider-2 ie9";}
       }
   
       if (item.length <= 1) {
@@ -28,14 +28,14 @@
       }
   
       function prevSlide() {
-          var currentSlide = cdSlider.querySelector("li.current_slide_bis"),
+          var currentSlide = cdSlider.querySelector("li.current_slide_2"),
               prevElement = currentSlide.previousElementSibling,
               prevSlide = ( prevElement !== null) ? prevElement : item[item.length-1],
               prevColor = prevSlide.getAttribute("data-color"),
               el = document.createElement('span');
   
           currentSlide.className = "";
-          prevSlide.className = "current_slide_bis";
+          prevSlide.className = "current_slide_2";
   
           nav.children[0].appendChild(el);
   
@@ -61,14 +61,14 @@
       }
   
       function nextSlide() {
-          var currentSlide = cdSlider.querySelector("li.current_slide"),
+          var currentSlide = cdSlider.querySelector("li.current_slide_2"),
               nextElement = currentSlide.nextElementSibling,
               nextSlide = ( nextElement !== null ) ? nextElement : item[0],
               nextColor = nextSlide.getAttribute("data-color"),
               el = document.createElement('span');
   
           currentSlide.className = "";
-          nextSlide.className = "current_slide_bis";
+          nextSlide.className = "current_slide_2";
   
           nav.children[1].appendChild(el);
   
@@ -96,7 +96,7 @@
       updateNavColor();
   
       function updateNavColor () {
-          var currentSlide = cdSlider.querySelector("li.current_slide_bis");
+          var currentSlide = cdSlider.querySelector("li.current_slide_2");
   
           var nextColor = ( currentSlide.nextElementSibling !== null ) ? currentSlide.nextElementSibling.getAttribute("data-color") : item[0].getAttribute("data-color");
           var	prevColor = ( currentSlide.previousElementSibling !== null ) ? currentSlide.previousElementSibling.getAttribute("data-color") : item[item.length-1].getAttribute("data-color");
