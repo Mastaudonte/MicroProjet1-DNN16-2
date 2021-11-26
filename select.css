@@ -50,6 +50,10 @@ input[type="radio"]:checked + label::before{
     background: linear-gradient(22deg, #384d9c, #9e7fb8); 
 }
 
+.systeme_onglets{
+    margin-top: 60px;
+}
+
 .select-theme {
     font-size: 30px;
     margin-left: 10px;
@@ -83,30 +87,42 @@ input[type="radio"]:checked + label::before{
     border-radius: 5px;
 }
 
+.onglets {
+    width: 95vw;
+    margin-left: 2.5vw;
+    margin-bottom: 1vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 .onglet
 {
-    margin-top: 30px;
-    width: 270px;
+    margin-top: 3vh;
+    width: 190px;
+    height: 15vh;
     position: relative;
     color: #6764a9;
     font-family: 'Poppins',sans-serif;
-    font-size: 15px;
+    font-size: 7px;
     border: 2px solid #6764a9;
     border-radius: 5px;
-    padding: 10px 50px;
+    padding: 10px 30px;
     display: flex;
     align-items: center;
     cursor: pointer;
     display: flex;
+    flex-grow: 1;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .onglet::before
 {
     content:"";
-    height: 50px;
-    width: 50px;
-    border: 3px solid #6764a9;
+    height: 21px;
+    width: 21px;
+    border: 7px solid #6764a9;
     border-radius: 50%;
     margin-right: 20px;
 }
@@ -121,17 +137,22 @@ input[type="radio"]:checked + label::before{
     color: white;
     border: none;
 }
-.onglet-1::before
+.onglet_1::before
 {
-    height: 25px;
-    width: 25px;
-    border: 15px solid white;
+    height: 21px;
+    width: 21px;
+    border: 7px solid white;
+    margin-right: 20px;
     background: linear-gradient(22deg, #384d9c, #9e7fb8); 
 }
 .contenu_onglet
 {
+        margin-left: 2.5vw;
+        width: 95vw;
+        height: 80vh;
         background-color:white;
-        border: 3px solid #6764a9;
+        background: linear-gradient(22deg, #384d9c, #9e7fb8);
+        /**border: 3px solid #6764a9;**/
         border-radius: 5px;
         margin-top:100px;
         padding:5px;

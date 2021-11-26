@@ -1,6 +1,6 @@
 /****************** NAVBAR ****************/
 #Nav {
-    background: linear-gradient(22deg, #384e9c8e, #9e7fb88e);
+    background: rgba(255, 255, 255, 0.5);
     width: 100vw;
     height: 60px;
     z-index: 9999;
@@ -11,7 +11,7 @@
     flex-direction: row;
 }
 #logo {
-    background-image: url(/images/logoStreetzineblanc.svg);
+    background-image: url(/images/logoStreetzineDegra.svg);
     background-size: cover;
     margin-top: 5px;
     margin-left: 85px;
@@ -28,7 +28,7 @@ a:link
     margin-left: 5px;
     margin-top: -12px;
     margin-right: 10px;
-    color: white;
+    color: #6764a9;
     /**background-color: rgb(255, 255, 255);**/
     /**border: solid 2px rgb(0, 0, 0);**/
     width: 150px;
@@ -54,15 +54,19 @@ a:link
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /************************************************/
+body {
+    background: linear-gradient(90deg, #387c9c, #9e7fb8);
+}
 
 .titre {
     margin-top: 15vh;
     margin-left: 5vw;
+    color: white;
 }
 
 .baniere {
-    border-top: 1vh solid #6764a9;
-    border-bottom: 1vh solid #6764a9;
+    border-top: 1vh solid white;
+    border-bottom: 1vh solid white;
     margin-left: 5vw;
     margin-right: 5vw;
     width: 90vw;
@@ -77,6 +81,7 @@ a:link
     margin-left: 5vw;
     width: 90vw;
     line-height: 7vh;
+    color: white;
 }
 
 .cote-cote {
@@ -86,6 +91,7 @@ a:link
     width: 90vw;
     display: flex;
     flex-direction: row;
+    color: white;
 }
 
 .espace {
@@ -96,9 +102,13 @@ a:link
     /* background-color: chartreuse; */
     width: 40vw;
     line-height: 5vh;
+    color: white;
+
 }
 
 .img-droite {
+    border-top: 1vh solid white;
+    border-bottom: 1vh solid white;
     border-radius: 5px;
     background-image: url(/images/Von-Anka-Street-Art-by-Trust-iCon-in-London-England.jpg);
     background-size: cover;
@@ -112,15 +122,18 @@ a:link
     margin-left: 5vw;
     width: 90vw;
     display: flex;
+    color: white;
 }
 
 .guillemet {
     font-size: 50px;
+    color: white;
 }
 
 .cita {
     font-size: 50px;
     text-align: center;
+    color: white;
 }
 
 .mini-espace {

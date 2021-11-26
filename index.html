@@ -4,6 +4,12 @@
         <meta charset="utf-8">
         <title>article</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="slider.css">
+        <link rel="stylesheet" href="text-page.css">
+        <link rel="stylesheet" href="select.css">
+        <link rel="stylesheet" href="mini-slider.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="footer.css">
     </head>
     <body>
 
@@ -11,41 +17,399 @@
         <div id="Nav">
             <div id="logo"></div>
             <div class="pokemon">
-                <a href="index.html"><div class="Nav-Bouton 1"><p class="bouton-nav">La Une</p></div></a>
-                <a href="index2test.html"><div class="Nav-Bouton 2"><p class="bouton-nav">Articles</p></div></a>
-                <a href="index3.html"><div class="Nav-Bouton 3"><p class="bouton-nav">A Propos</p></div></a>
+                <a href="index.html#ancre1"><div class="Nav-Bouton 1"><p class="bouton-nav">La Une</p></div></a>
+                <a href="index.html#ancre2"><div class="Nav-Bouton 2"><p class="bouton-nav">Articles</p></div></a>
+                <a href="index.html#ancre3"><div class="Nav-Bouton 3"><p class="bouton-nav">A Propos</p></div></a>
+            </div>
+        </div>
+        
+        <!-- Slider -->
+        <section id="ancre1" class="cd-slider-bis">
+            <ul>
+                <li data-color="#384d9c"> 
+                    <a href="index2.html">
+                        <div class="content" style="background-image:url(/images/tete.jpg); background-size: cover;">
+                            <blockquote>
+                            <p>Les différentes techniques utilisées</p>
+                            <span> 16 / 34 / 34 - Apolline</span>
+                            </blockquote>
+                        </div>
+                    </a>
+                </li>
+                <li data-color="#9e7fb8">
+                <div class="content" style="background-image:url(/images/Von-Anka-Street-Art-by-Trust-iCon-in-London-England.jpg); background-size: cover;">
+                    <blockquote>
+                    <p>Qu’est-ce que le Street Art ?</p>
+                    <span> 10 / 39 / 30 - Louise</span>
+                    </blockquote>
+                </div>
+                </li>
+                <li data-color="#384d9c">
+                <div class="content" style="background-image:url(/images/hip-hop.jpg); background-size: cover;">
+                    <blockquote>
+                    <p>Le street art et le hip hop</p>
+                    <span> 20 / 08 / 38 - Callista</span>
+                    </blockquote>
+                </div>
+                </li>
+                <li data-color="#6764a9">
+                <div class="content" style="background-image:url(/images/train-ext2.jpg); background-size: cover;">
+                    <blockquote>
+                    <p>Les origines du street art</p>
+                    <span> 20 / 08 / 38 - Clément</span>
+                    </blockquote>
+                </div>
+                </li>
+                <li data-color="#9e7fb8">
+                <div class="content" style="background-image:url(/images/tripple-face.jpg); background-size: cover;">
+                    <blockquote>
+                    <p>La différence entre le street art et le public art</p>
+                    <span> 20 / 08 / 38 - Callista</span>
+                    </blockquote>
+                </div>
+                </li>
+            </ul>
+            <nav>
+                <div><a class="prev" href="#"></a></div>
+                <div><a class="next" href="#"></a></div>
+            </nav>
+            </section>
+
+            <!---------------- Espaceur --------------->
+            <div class="espace"></div>
+
+            <!---------------- Espaceur --------------->
+            <div class="espace"></div>
+
+        <!---------------- Texte Pages Principal ---------------->
+        <div class="container-text-for-page">
+            <p class="text-for-page">Le street-art parsème l’univers visuel des grandes cités. On en retrouve sur les murs, les trottoirs, les rues, dans les parcs ou sur les monuments. Le terme est par ailleurs utilisé afin de différencier une forme artistique d’un mouvement territorial ponctué de vandalisme et d’illégalité.<br>Bien que le street-art ne soit pas toujours légal, sa valeur artistique est incontestable et de plus en plus en demande.<br>Les motivations conduisant ces « street-artistes » à perpétrer leur art sont tout autant variées que le nombre d’artistes lui-même.<br>Le désir d’être subversif, de provoquer, de représenter ce que tout le monde pense tout bas serait à l’origine de ce courant, la rue étant la plateforme la plus large et la plus puissante dans un but de visibilité.</p>
+            <div class="animation-spray">
+                <img class="icone-spray" src="/images/spray.svg">
+                <img class="icone-pchit" src="/images/pchit.svg">
+                <img class="icone-dessin" src="/images/logoStreetzineblanc.svg">
             </div>
         </div>
 
-        <!-- Titre Article -->
-        <div class="titre">
-            <h2>Qu’est-ce que le Street Art ?</h2>
-            <h3>Par (auteur) le (date jj/mm/aa)</h3>
+        <!---------------- Espaceur --------------->
+        <div class="espace"></div>
+
+        <!---------------- Espaceur --------------->
+        <div class="espace"></div>
+
+        <!------------------ Système Onglets ------------------------>
+        <div  id="ancre2"></div>
+        <div class="systeme_onglets">
+
+            <!------------------- Articles -------------------->
+            <div class="contenu_onglets">
+                <div class="contenu_onglet" id="contenu_onglet_article1">
+                    
+                    <!----------------------------- Mini Slider --------------------------->
+                    <section class="cd-slider">
+                        <ul>
+                          <li data-color="#384d9c">
+                              <a href="article.html">
+                                  <div class="content" href="article.html" style="background-image:url(/images/tete.jpg); background-size: cover;">
+                                    <blockquote>
+                                      <p>Les différentes techniques utilisées</p>
+                                      <span> 16 / 34 / 34 - Apolline</span>
+                                    </blockquote>
+                                  </div>
+                              </a>
+                          </li>
+                          <li data-color="#9e7fb8">
+                            <div class="content" style="background-image:url(/images/Von-Anka-Street-Art-by-Trust-iCon-in-London-England.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Qu’est-ce que le Street Art ?</p>
+                                <span> 10 / 39 / 30 - Louise</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#384d9c">
+                            <div class="content" style="background-image:url(/images/hip-hop.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Le street art et le hip hop</p>
+                                <span> 20 / 08 / 38 - Callista</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#6764a9">
+                            <div class="content" style="background-image:url(/images/train-ext2.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Les origines du street art</p>
+                                <span> 20 / 08 / 38 - Clément</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#9e7fb8">
+                            <div class="content" style="background-image:url(/images/tripple-face.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>La différence entre le street art et le public art</p>
+                                <span> 20 / 08 / 38 - Callista</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                        </ul>
+                        <nav>
+                          <div><a class="prev" href="#"></a></div>
+                          <div><a class="next" href="#"></a></div>
+                        </nav>
+                      </section>
+                </div>
+                <div class="contenu_onglet" id="contenu_onglet_article2">
+                    
+                    <!----------------------------- Mini Slider --------------------------->
+                    <section class="cd-slider">
+                        <ul>
+                          <li data-color="#384d9c">
+                            <div class="content" style="background-image:url(/images/tete.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Les différentes techniques utilisées</p>
+                                <span> 16 / 34 / 34 - Apolline</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#9e7fb8">
+                            <div class="content" style="background-image:url(/images/Von-Anka-Street-Art-by-Trust-iCon-in-London-England.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Qu’est-ce que le Street Art ?</p>
+                                <span> 10 / 39 / 30 - Louise</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#384d9c">
+                            <div class="content" style="background-image:url(/images/hip-hop.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Le street art et le hip hop</p>
+                                <span> 20 / 08 / 38 - Callista</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#6764a9">
+                            <div class="content" style="background-image:url(/images/train-ext2.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Les origines du street art</p>
+                                <span> 20 / 08 / 38 - Clément</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#9e7fb8">
+                            <div class="content" style="background-image:url(/images/tripple-face.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>La différence entre le street art et le public art</p>
+                                <span> 20 / 08 / 38 - Callista</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                        </ul>
+                        <nav>
+                          <div><a class="prev" href="#"></a></div>
+                          <div><a class="next" href="#"></a></div>
+                        </nav>
+                      </section>
+                </div>
+                <div class="contenu_onglet" id="contenu_onglet_article3">
+                    
+                    <!----------------------------- Mini Slider --------------------------->
+                    <section class="cd-slider">
+                        <ul>
+                          <li data-color="#384d9c">
+                            <div class="content" style="background-image:url(/images/tete.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Les différentes techniques utilisées</p>
+                                <span> 16 / 34 / 34 - Apolline</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#9e7fb8">
+                            <div class="content" style="background-image:url(/images/Von-Anka-Street-Art-by-Trust-iCon-in-London-England.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Qu’est-ce que le Street Art ?</p>
+                                <span> 10 / 39 / 30 - Louise</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#384d9c">
+                            <div class="content" style="background-image:url(/images/hip-hop.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Le street art et le hip hop</p>
+                                <span> 20 / 08 / 38 - Callista</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#6764a9">
+                            <div class="content" style="background-image:url(/images/train-ext2.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Les origines du street art</p>
+                                <span> 20 / 08 / 38 - Clément</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#9e7fb8">
+                            <div class="content" style="background-image:url(/images/tripple-face.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>La différence entre le street art et le public art</p>
+                                <span> 20 / 08 / 38 - Callista</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                        </ul>
+                        <nav>
+                          <div><a class="prev" href="#"></a></div>
+                          <div><a class="next" href="#"></a></div>
+                        </nav>
+                      </section>
+                </div>
+                <div class="contenu_onglet" id="contenu_onglet_article4">
+                    
+                    <!----------------------------- Mini Slider --------------------------->
+                    <section class="cd-slider">
+                        <ul>
+                          <li data-color="#384d9c">
+                            <div class="content" style="background-image:url(/images/tete.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Les différentes techniques utilisées</p>
+                                <span class="date-redacteur"> 16 / 34 / 34 - Apolline</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#9e7fb8">
+                            <div class="content" style="background-image:url(/images/Von-Anka-Street-Art-by-Trust-iCon-in-London-England.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Qu’est-ce que le Street Art ?</p>
+                                <span class="date-redacteur"> 10 / 39 / 30 - Louise</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#384d9c">
+                            <div class="content" style="background-image:url(/images/hip-hop.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Le street art et le hip hop</p>
+                                <span class="date-redacteur"> 20 / 08 / 38 - Callista</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#6764a9">
+                            <div class="content" style="background-image:url(/images/train-ext2.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Les origines du street art</p>
+                                <span class="date-redacteur"> 20 / 08 / 38 - Clément</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#9e7fb8">
+                            <div class="content" style="background-image:url(/images/tripple-face.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>La différence entre le street art et le public art</p>
+                                <span class="date-redacteur"> 20 / 08 / 38 - Callista</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                        </ul>
+                        <nav>
+                          <div><a class="prev" href="#"></a></div>
+                          <div><a class="next" href="#"></a></div>
+                        </nav>
+                      </section>
+                </div>
+                <div class="contenu_onglet" id="contenu_onglet_article5">
+                    
+                    <!----------------------------- Mini Slider --------------------------->
+                    <section class="cd-slider">
+                        <ul>
+                          <li data-color="#384d9c">
+                            <div class="content" style="background-image:url(/images/tete.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Les différentes techniques utilisées</p>
+                                <span> 16 / 34 / 34 - Apolline</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#9e7fb8">
+                            <div class="content" style="background-image:url(/images/Von-Anka-Street-Art-by-Trust-iCon-in-London-England.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Qu’est-ce que le Street Art ?</p>
+                                <span> 10 / 39 / 30 - Louise</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#384d9c">
+                            <div class="content" style="background-image:url(/images/hip-hop.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Le street art et le hip hop</p>
+                                <span> 20 / 08 / 38 - Callista</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#6764a9">
+                            <div class="content" style="background-image:url(/images/train-ext2.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>Les origines du street art</p>
+                                <span> 20 / 08 / 38 - Clément</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                          <li data-color="#9e7fb8">
+                            <div class="content" style="background-image:url(/images/tripple-face.jpg); background-size: cover;">
+                              <blockquote>
+                                <p>La différence entre le street art et le public art</p>
+                                <span> 20 / 08 / 38 - Callista</span>
+                              </blockquote>
+                            </div>
+                          </li>
+                        </ul>
+                        <nav>
+                          <div><a class="prev" href="#"></a></div>
+                          <div><a class="next" href="#"></a></div>
+                        </nav>
+                      </section>
+                </div>
+            </div>
+
+             <!-- List Thème -->
+             <div class="onglets">
+                <span class="onglet_0 onglet" id="onglet_article1" onclick="javascript:change_onglet('article1');">
+                    <ion-icon name="reader-outline" class="icon-select"></ion-icon>
+                    <h1 class="select-theme">Thème</h1>
+                    <p class="text-select">L’histoire du street art</p></span>
+                <span class="onglet_0 onglet" id="onglet_article2" onclick="javascript:change_onglet('article2');">
+                    <ion-icon name="reader-outline" class="icon-select"></ion-icon>
+                    <h1 class="select-theme">Thème</h1>
+                    <p class="text-select">Les différentes façons de ...</p></span>
+                <span class="onglet_0 onglet" id="onglet_article3" onclick="javascript:change_onglet('article3');">
+                    <ion-icon name="reader-outline" class="icon-select"></ion-icon>
+                    <h1 class="select-theme">Thème</h1>
+                    <p class="text-select">Le street art en France</p></span>
+                <span class="onglet_0 onglet" id="onglet_article4" onclick="javascript:change_onglet('article4');">
+                    <ion-icon name="reader-outline" class="icon-select"></ion-icon>
+                    <h1 class="select-theme">Thème</h1>
+                    <p class="text-select">Le street art à l’étranger</p></span>
+                <span class="onglet_0 onglet" id="onglet_article5" onclick="javascript:change_onglet('article5');">
+                    <ion-icon name="reader-outline" class="icon-select"></ion-icon>
+                    <h1 class="select-theme">Thème</h1>
+                    <p class="text-select">Les artistes</p></span>
+            </div>
         </div>
 
-        <!-- Article -->
-        <div class="article">
-            <div class="baniere"></div>
-            <p class="text">Le Street Art est un mouvement artistique contemporain qui s’est développé à la fin du siècle dernier. Il se définit comme l’art des endroits publics, celui qu’on retrouve dans nos rues, sur nos murs. Celui auquel on ne prête pas toujours attention, mais qui peut réserver de belles surprises. Il se présente sous diverses formes : graffiti, graffiti au pochoir, création d’affiches, pastel et même projection vidéo.</p>
-            <div class="cote-cote">
-                <p class="text-gauche">En français, on l’appelle “ art de rue ” ou “ art urbain ”. C’est un art instantané, rapide, interdit, dont le but est de faire passer un message, sans autorisation.<br><br><br><br>Le Street Art peut être discret et occuper de très petits espaces (dessins, stickers) ou être monumental et très visible, comme, par exemple, des structures gonflables.</p>
-                <div class="espace"></div>
-                <div class="img-droite"></div>
-            </div>
-            <p class="text">Il s’agit principalement d’un art destiné au grand public, éphémère et en constant renouveau. Cette forme d’art va au-devant des gens sans qu’ils ne l’aient forcément souhaité. Elle permet de toucher des personnes qui n’entreraient pas dans un musée ou dans une galerie d’art.</p>
-
-            <!-- Citation -->
-            <div class="citation">
-                <p class="guillemet"><b>"</b></p>
-                <div class="mini-espace"></div>
-                <p class="cita"><b>Cette forme d’art va au-devant des gens sans qu’ils ne l’aient forcément souhaité.</b></p>
-                <div class="mini-espace"></div>
-                <p class="guillemet"><b>"</b></p>
-            </div>
-            <p class="text">Les artistes de rues s’approprient l’espace urbain pour contester, bousculer, déranger, revendiquer, dénoncer, interroger, soutenir… Ils ont des motivations artistiques (faire connaître leur art) mais souvent aussi politiques ou sociales (faire passer un message). Bien que le Street Art ne soit pas toujours légal, sa valeur artistique est incontestable. Les artistes de Street Art ne cherchent pas à vandaliser les espaces publics, mais plutôt à changer notre regard sur la ville et sur l’art.</p>
-        </div>
+        <!---------------- Espaceur --------------->
+        <div class="espace"></div>
 
         <!-- Footer -->
-        <footer></footer>
+        <footer id="ancre3" class="footer">
+          <div class="social">
+            <a href="https://www.instagram.com/streetzine16/"><ion-icon class="social-logo" name="logo-instagram"></ion-icon></a>
+            <a href="#footer"><ion-icon class="social-logo" name="logo-twitter"></ion-icon></a>
+            <a href="#footer"><ion-icon class="social-logo" name="logo-facebook"></ion-icon></a>
+          </div>
+          <p class="copyright">Streetzine © 2021</p>
+        </footer>
+
+        <!-- JS -->
+        <script src="app.js"></script>
+        <script src="app2.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="hello.js"></script>
     </body>
 </html>
